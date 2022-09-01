@@ -19,7 +19,7 @@
  *  Another constants
  */
 
-const double sound_speed = 0.0343;    // en centimetros/microsegundo
+const double sound_speed = 0.0343;    // in cm/microsecs
 
 /*
  *  Private functions

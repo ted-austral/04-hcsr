@@ -3,13 +3,13 @@
 
 ##  Measure distance with Ultrasonic Sensor HC-SR04
 
-    IntroCom - Austral - 2022 - EAM
+    IntroComp - Austral - 2022 - EAM
     Uses ESP32 microcontroller
 
 ###  Hardware
 
     1 Ultrasonic Sensor HC-SR04
-    cables
+    Jumper wires
 
 ###  Connections
 
@@ -24,8 +24,6 @@
 
 ###  Links
 
-#### RandomNerd Tutorials - ESP32 with HC-SR04 Ultrasonic Sensor
-
-    https://randomnerdtutorials.com/esp32-hc-sr04-ultrasonic-arduino/
+[RandomNerd Tutorials - ESP32 with HC-SR04 Ultrasonic Sensor](https://randomnerdtutorials.com/esp32-hc-sr04-ultrasonic-arduino/)
 
 
