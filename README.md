@@ -4,7 +4,7 @@
 
 ##  Measure distance with Ultrasonic Sensor HC-SR04
 
-    IntroCom - Austral - 2022 - EAM
+    Electronica Digital - Austral - 2023 - EAM
     Uses ESP32 microcontroller
 
 

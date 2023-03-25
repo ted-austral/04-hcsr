@@ -1,7 +1,8 @@
 /*
  *  Project 04-hcsr - main.cpp
- *      Using the ultrasonic sensor HC-SR04
- *      to measure distances
+ *      Electronica Digital - Austral - 2023 - EAM
+ *
+ *      Using the ultrasonic sensor HC-SR04 to measure distances
  *
  *      ESP32 microcontroller
  */
@@ -47,8 +48,7 @@ void
 setup(void)
 {
     pinMode(TRIG_PIN, OUTPUT);          // trigPin as output
-    digitalWrite(TRIG_PIN, LOW);
-
+    digitalWrite(TRIG_PIN, LOW);        // trigPin to low
     pinMode(ECHO_PIN, INPUT);           // echoPin as input
 
     Serial.begin(BAUD);
@@ -64,7 +64,7 @@ loop(void)
     duration = get_pulse();
 
     distance = duration * sound_speed / 2;
-    Serial.println("Distance = " +String(distance) + " cm" );
+    Serial.printf("Distance = %7.1f cm\n", distance);
 
     delay(2000);
 }
